@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FR9-xg-jsm">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LAUNCH.png" translatesAutoresizingMaskIntoConstraints="NO" id="ifj-Qg-AbE">
+                            <rect key="frame" x="50" y="50" width="380" height="380"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.87058823529411766" green="0.10588235294117647" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="ifj-Qg-AbE" firstAttribute="centerY" secondItem="FR9-xg-jsm" secondAttribute="centerY" id="C8v-d7-Rc4"/>
+                        <constraint firstItem="ifj-Qg-AbE" firstAttribute="top" secondItem="FR9-xg-jsm" secondAttribute="top" constant="50" id="Tcx-Ix-Y0g"/>
+                        <constraint firstItem="ifj-Qg-AbE" firstAttribute="leading" secondItem="FR9-xg-jsm" secondAttribute="leading" constant="50" id="YGg-Tp-Cuf"/>
+                        <constraint firstAttribute="trailing" secondItem="ifj-Qg-AbE" secondAttribute="trailing" constant="50" id="ce8-Vi-mfF"/>
+                        <constraint firstItem="ifj-Qg-AbE" firstAttribute="centerX" secondItem="FR9-xg-jsm" secondAttribute="centerX" id="luC-mw-m07"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="FR9-xg-jsm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7XN-Hk-tyi"/>
+                <constraint firstItem="FR9-xg-jsm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Sx4-bn-hUj"/>
+                <constraint firstAttribute="trailing" secondItem="FR9-xg-jsm" secondAttribute="trailing" id="idi-rW-qJQ"/>
+                <constraint firstAttribute="bottom" secondItem="FR9-xg-jsm" secondAttribute="bottom" id="nBJ-MB-IoJ"/>
+                <constraint firstItem="FR9-xg-jsm" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="sQk-on-msi"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="2" y="67"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LAUNCH.png" width="960" height="720"/>
+    </resources>
+</document>
